@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdawn Menu 실습</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/87bd4c106a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="gnb-nav">
+      <ul class="gnb-nav-list">
+        <li class="gnb-nav-item"><a href=""><i class="fa-solid fa-arrow-right-to-bracket"></i> 로그인</a></li>
+        <li class="gnb-nav-item"><a href=""><i class="fa-solid fa-user-group"></i> 회원가입</a></li>
+        <li class="gnb-nav-item"><a href=""><i class="fa-solid fa-key"></i> 아이디/비밀번호 찾기</a></li>
+      </ul>
+    </nav>
+    <nav class="lnb-nav">
+      <div class="lnb-left">
+        <h1 class="logo">
+          <a href="./index.html">
+            <img src="./images/logo.svg" alt="logo">
+          </a>
+        </h1>
+        <h2 class="visually-hidden">메뉴</h2>
+        <ul class="lnb-list">
+          <li class="lnb-item"><a href="">포럼 소개</a>
+            <ul class="sub">
+              <li class="sub-item"><a href="">취지문</a></li>
+              <li class="sub-item"><a href="">주요사업</a></li>
+              <li class="sub-item"><a href="">조직위원회</a></li>
+              <li class="sub-item"><a href="">정관</a></li>
+              <li class="sub-item"><a href="">건강기능식품연구회</a></li>
+            </ul>
+          </li>
+          <li class="lnb-item"><a href="">포럼신청</a>
+            <ul class="sub">
+              <li class="sub-item"><a href="">포럼공지</a></li>
+              <li class="sub-item"><a href="">포럼일정 및 참가</a></li>
+            </ul>
+          </li>
+          <li class="lnb-item"><a href="">포럼활동</a>
+            <ul class="sub">
+              <li class="sub-item"><a href="">포럼자료</a></li>
+              <li class="sub-item"><a href="">포토갤러리</a></li>
+            </ul>
+          </li>
+          <li class="lnb-item"><a href="">정보마당</a>
+            <ul class="sub">
+              <li class="sub-item"><a href="">e-News</a></li>
+            </ul>
+          </li>
+          <li class="lnb-item"><a href="">고객센터</a>
+            <ul class="sub">
+              <li class="sub-item"><a href="">공지사항</a></li>
+              <li class="sub-item"><a href="">자주하는 질문</a></li>
+              <li class="sub-item"><a href="">1:1문의</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="lnb-right">
+        <div class="sub-menu">
+          <a>
+            <img src="./images/btn_nav.svg">
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="main-wrapper">
+      <ul class="slide-list">
+        <li class="slide-item"><img src="./images/img1.jpg" alt="img1"></li>
+        <li class="slide-item"><img src="./images/img2.jpg" alt="img2"></li>
+        <li class="slide-item"><img src="./images/img3.jpeg" alt="img3"></li>
+      </ul>
+      <div class="btn-box">
+        <button class="slide-button1">첫번째</button>
+        <button class="slide-button2">두번째</button>
+        <button class="slide-button3">세번째</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <nav class="fnb-nav">
+      <div class="fnb-wrapper1">
+        <ul class="fnb-list">
+          <li class="fnb-item"><a href="">이용약관</a></li>
+          <li class="fnb-item"><a href="">개인정보 처리방침</a></li>
+          <li class="fnb-item"><a href="">이메일무단수집거부</a></li>
+        </ul>
+        <ul class="fnb-list">
+          <li class="fnb-item"><a href="">대표번호</a></li>
+          <li class="fnb-item"><a href="">031.5171.5289</a></li>
+          <li class="fnb-item"><a href="">(평일 09:00)~18:00)</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="fnb-wrapper">
+      <div class="fnb-bar">
+        <div class="fnb-bar-img">
+          <img src="./images/logo_spot.svg">
+        </div>
+        <div class="fnb-bar-info">
+          <p>13488 경기도 성남시 분당구 대왕판교로 700 B동 102호(삼평동, 코리아바이오파크) 건강기능식품미래포럼
+
+            / 고유번호 : 855-80-01319
+            
+            / 대표자 : 박영인</p>
+
+          <p>Copyright© 2017 Health Supplements Future Forum, All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/slide.js"></script>
+  <script src="./js/dropdawn.js"></script>
+</body>
+</html>
